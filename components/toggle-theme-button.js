@@ -21,7 +21,7 @@ const ToggleThemeButton = () => {
     const currentTheme = theme === 'system' ? systemTheme : theme
     if (currentTheme === 'dark') {
       return (
-        <AnimatePresence exitBeforeEnter initial={false}>
+        <AnimatePresence mode='wait' initial={false}>
           <motion.div
             key={currentTheme}
             initial={{ y: -10, opacity: 0 }}
@@ -35,7 +35,7 @@ const ToggleThemeButton = () => {
       )
     } else {
       return (
-        <AnimatePresence exitBeforeEnter initial={false}>
+        <AnimatePresence mode='wait' initial={false}>
           <motion.div
             key={currentTheme}
             initial={{ y: -10, opacity: 0 }}

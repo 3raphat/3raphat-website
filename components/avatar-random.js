@@ -7,8 +7,8 @@ const AvatarRandom = () => {
   const avatar = images[number].src
 
   return (
-    <div className='w-24'>
-      <img src={avatar} alt='avatar'/>
+    <div className='relative w-24 h-24'>
+      <Image src={avatar} layout='fill' objectFit='contain' alt='avatar' />
     </div>
   )
 }

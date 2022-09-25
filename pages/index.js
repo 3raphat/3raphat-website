@@ -16,7 +16,7 @@ const Home = () => {
         <Content>
           <Heading>/home</Heading>
           <div className='flex mx-auto justify-center mb-8 relative w-full h-96'>
-            <Image src='/lost_in_space.svg' layout='fill' objectFit='contain'/>
+            <Image src='/lost_in_space.svg' layout='fill' objectFit='contain' priority={true}/>
           </div>
           <div className='flex justify-center items-center bg-whiteAlpha500 dark:bg-whiteAlpha200 p-3 rounded-lg mb-8'>
             Thanks for exploring my website!
