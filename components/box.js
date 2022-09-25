@@ -12,7 +12,7 @@ const Box = ({ className, children, title, src, href, target }) => {
             objectFit='cover'
             />
         </div>
-        <div className='font-semibold text-xl mt-4'>
+        <div className='text-xl mt-4'>
           {title}
         </div>
         <div className='opacity-50 mt-2'>
