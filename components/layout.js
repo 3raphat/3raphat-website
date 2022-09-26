@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Container from './container'
+import Content from './content'
 import Footer from './footer'
 import Navbar from './navbar'
 
@@ -14,7 +16,11 @@ const Layout = ({ children, title }) => {
       </Head>
       <main className='min-h-screen flex flex-col bg-light dark:bg-dark transition-colors'>
         <Navbar />
-        {children}
+        <Container>
+          <Content>
+            {children}
+          </Content>
+        </Container>
         <Footer />
       </main>
     </>
