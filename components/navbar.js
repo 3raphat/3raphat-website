@@ -14,6 +14,14 @@ const LinkItem = ({ children, href, target }) => {
   )
 }
 
+const NavItem = ({ children }) => {
+  return (
+    <div className='hover:underline hover:underline-offset-4'>
+      {children}
+    </div>
+  )
+}
+
 const Navbar = () => {
   return (
     <nav className='z-[1] fixed w-full backdrop-blur-lg p-2 flex items-center justify-around bg-white bg-opacity-40 dark:bg-black dark:bg-opacity-20'>
@@ -27,14 +35,6 @@ const Navbar = () => {
       </div>
       <ToggleThemeButton />
     </nav>
-  )
-}
-
-const NavItem = ({ children }) => {
-  return (
-    <div className='hover:underline hover:underline-offset-4'>
-      {children}
-    </div>
   )
 }
 

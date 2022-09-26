@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 import Link from '../components/link'
 import Section from '../components/section'
 import { FaGithub, FaDiscord } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 import Button from '../components/button'
 
 const Home = () => {
@@ -51,6 +52,14 @@ const Home = () => {
                   <Button className='py-2 px-3 gap-2 hover:bg-teal-400/50'>
                     <FaDiscord />
                     Ah#8492
+                  </Button>
+                </Link>
+              </li>
+              <li className='flex flex-col items-center'>
+                <Link href='mailto:treeraphat234@gmail.com' target='_blank'>
+                  <Button className='py-2 px-3 gap-2 hover:bg-teal-400/50'>
+                    <MdEmail />
+                    Email
                   </Button>
                 </Link>
               </li>

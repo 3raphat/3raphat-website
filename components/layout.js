@@ -9,7 +9,7 @@ const Layout = ({ children, title }) => {
       <Head>
         <title>{t}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="3raphat's portfolio" />
+        <meta name="description" content="3raphat's website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='min-h-screen flex flex-col bg-light dark:bg-dark transition-colors'>
