@@ -8,10 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'flow': ['Flow Rounded', 'sans-serif'],
-        'MRounded': ["'M PLUS Rounded 1c'", 'sans-serif'],
         'quick': ['Quicksand', 'sans-serif'],
-        'nunito': ['Nunito', 'sans-serif'],
       },
       colors: {
         dark: "#202023",
