@@ -14,7 +14,7 @@ const Layout = ({ children, title }) => {
         <meta name="description" content="3raphat's website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='min-h-screen flex flex-col bg-light dark:bg-dark transition-colors'>
+      <main className='min-h-screen flex flex-col bg-light dark:bg-dark text-textDark dark:text-textLight transition-colors'>
         <Navbar />
         <Container>
           <Content>
