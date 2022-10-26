@@ -9,7 +9,7 @@ const Projects = () => {
           /projects
         </Heading>
         <div className='gap-8 grid grid-cols-2'>
-          <Box title='Discord Music Bot' href='https://sana-bot.netlify.app' target='_blank' src='/images/projects/sana_01.png'>
+          <Box title='Discord Music Bot' href='www.sanabot.ml' target='_blank' src='/images/projects/sana_01.png'>
             A Discord bot that plays music from YouTube, Spotify, etc.
           </Box>
           <Box title='Todos' href='https://todos-web.netlify.app' target='_blank' src='/images/projects/todos_01.png'>
