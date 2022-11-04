@@ -15,18 +15,18 @@ const Projects = () => {
           <Box title='Todos' href='https://todos-web.netlify.app' target='_blank' src='/images/projects/todos_01.png'>
             A To-Do List website with Local Storage
           </Box>
-          <Box title='Virtual Otamatone' href='https://virtual-otamatone.vercel.app' target='_blank' src='/images/projects/vir_ota_01.png'>
-            Play an Otamatone with your Numpad
-          </Box>
+          <Box title='Loop YouTube' href='http://loop-yt.vercel.app' target='_blank' src='/images/projects/loop_yt_01.png'>
+            Loop any YouTube videos
+          </Box>          
           <Box title='QR Code Generator' href='https://qr-generator-3raphat.vercel.app' target='_blank' src='/images/projects/qr_01.png'>
             Create and Read your QR Code
           </Box>
           <Box title='Quote Generator' href='http://quote-generator-3raphat.vercel.app' target='_blank' src='/images/projects/quote_01.png'>
             Quote Generator using API
           </Box>           
-          <Box title='Quiz App' href='https://quiz-app-3raphat.vercel.app' target='_blank' src='/images/projects/quiz_01.png'>
-            Quiz about K-POP 
-          </Box>          
+          <Box title='Virtual Otamatone' href='https://virtual-otamatone.vercel.app' target='_blank' src='/images/projects/vir_ota_01.png'>
+            Play an Otamatone with your Numpad
+          </Box>
         </div>
     </Layout>
   )
