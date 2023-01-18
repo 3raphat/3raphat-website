@@ -53,7 +53,7 @@ const Home = () => {
             <Link href='https://discord.com/users/556060331252776972' target='_blank'>
               <Button className='py-2 px-3 gap-2 hover:bg-teal-400/50'>
                 <FaDiscord />
-                Ah#8492
+                ahnnee#8492
               </Button>
             </Link>
           </li>
