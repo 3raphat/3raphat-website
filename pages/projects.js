@@ -1,6 +1,7 @@
 import Box from '../components/box'
 import Heading from '../components/heading'
 import Layout from '../components/layout'
+import Link from '../components/link'
 
 const Projects = () => {
   return (
@@ -27,6 +28,9 @@ const Projects = () => {
           <Box title='Virtual Otamatone' href='https://virtual-otamatone.vercel.app' target='_blank' src='/images/projects/vir_ota_01.png'>
             Play an Otamatone with your Numpad
           </Box>
+        </div>
+        <div className='mt-4 flex justify-center items-center bg-teal-400/50 dark:bg-teal-600/50 p-3 rounded-lg'>
+          <p>See more projects on <Link href='https://github.com/3raphat' className='hover:underline'>Github</Link></p>
         </div>
     </Layout>
   )
